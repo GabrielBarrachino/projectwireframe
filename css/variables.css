@@ -1,0 +1,12 @@
+:root{
+    --brand-color-pink: #f67acb;
+    --brand-color-pink-hover: #f763c3;
+    --gray-color-50: #e6ebf2;
+    --gray-color-100: #050110;
+    --gray-color-200: #1c1d1f;
+    --gray-color-300: #393c40;
+    --gray-color-400: #5c6066;
+    --gray-color-800: #f7f8fa;
+    --white-colors-text: rgba(255, 255, 255, 0.7);
+    --white: #fff;
+}

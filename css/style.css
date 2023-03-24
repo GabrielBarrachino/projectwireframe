@@ -1,0 +1,342 @@
+/* HEADER INICIO */
+header{
+    width: 100%;
+    height: 8.8rem;
+    background-color: var(--gray-color-800);
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header .menu-mobile{
+    display: none;
+}
+
+header nav ul{
+    display: flex;
+    margin-right: 32px;
+}
+
+header nav ul li{
+    margin-left: 32px;
+}
+
+header nav ul li:first-child{
+    margin-left: 0;
+}
+
+header nav .btn-primary{
+    padding: 0.9rem 3.4rem;
+    border-radius: 8px;
+}
+/* HEADER FIM */
+
+/* SECTION HERO INICIO */
+.s-hero{
+    padding: 7.2rem 0;
+    margin-top: 8.8rem;
+}
+
+.s-hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.s-hero .text{
+    width: 100%;
+    max-width: 64rem;
+}
+
+.s-hero .text h1{
+    margin-bottom: 2rem;
+}
+
+.s-hero .text p{
+    font-size: 1.8rem;
+    line-height: 150%;
+    max-width: 48.8rem;
+    margin-bottom: 4rem;
+    color: var(--gray-color-300);
+}
+
+.s-hero .image{
+    width: 100%;
+    max-width: 44rem;
+    height: 42rem;
+    background-color: var(--gray-color-800);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.s-hero .text a{
+    padding: 1.7rem 3.7rem;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.s-hero .text .btn-primary:hover{
+    background-color: var(--brand-color-pink-hover);
+    color: var(--gray-color-300);
+    transform: scale(1.02);
+}
+/* SECTION HERO FIM */
+
+
+/* SECTION CARD INICIO */
+.s-card-picture{
+    background-color: var(--gray-color-100);
+    padding: 10.4rem 0 12rem 0;
+}
+
+.s-card-picture .main-area{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    padding-bottom: 12.5rem;
+}
+
+.s-card-picture .title{
+    display: flex;
+    flex-direction: column;
+}
+
+.s-card-picture .title p{
+    margin-top: 0.9rem;
+}
+
+.s-card-picture .title.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s-card-picture p{
+    color: var(--white);
+}
+
+.s-card-picture .all-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.8rem;
+}
+
+.s-card-picture .all-cards .card{
+    width: 100%;
+    max-width: 38.4rem;
+    height: 38.2rem;
+    background-color: rgba(97, 97, 102, 0.253);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6.4rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.s-card-picture .all-cards .card:hover{
+    transform: scaleY(1.02);
+}
+
+.s-card-picture .all-cards .card-light{
+    background-color: var(--white);
+    color: var(--gray-color-100);
+}
+
+.s-card-picture .all-cards .card-light h3{
+    color: var(--gray-color-100);
+}
+
+.s-card-picture .all-cards .card-light p{
+    color: var(--gray-color-300);
+}
+
+.s-card-picture .all-cards .card .info{
+    margin-top: 4rem;
+    max-width: 28.8rem;
+}
+
+.s-card-picture .all-cards .card .info p{
+    margin-top: 8px;
+}
+
+.s-card-picture .all-cards .card .info h3, .s-card-picture .all-cards .card .info p{
+    text-align: center;
+}
+
+.s-card-picture .all-cards .card .info p{
+    line-height: 150%;
+}
+
+.s-card-picture .second-area{
+    margin-top: 11.2rem;
+}
+
+.s-card-picture .second-area .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6.4rem;
+}
+
+.s-card-picture .second-area .top .btn-primary{
+    border-radius: 10px;
+}
+
+.s-card-picture .second-area .all-imgs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.2rem;
+}
+
+.s-card-picture .second-area .all-imgs .image{
+    width: 17.6rem;
+    height: 11.2rem;
+    background-color: var(--gray-color-200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+/* SECTION CARD FIM */
+
+
+/* SECTION NEWSLETTER INICIO*/
+.s-newsletter{
+    background-color: var(--gray-color-200);
+    padding: 15.2rem 0;
+}
+
+.s-newsletter .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.s-newsletter h2{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.s-newsletter p{
+    max-width: 69.4rem;
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.s-newsletter .btn-primary{
+    padding: 1.75rem 4.1rem;
+    border-radius: 10px;
+}
+/* SECTION NEWSLETTER FIM*/
+
+/* SECTION FOOTER INICIO*/
+footer{
+    background-color: var(--gray-color-100);
+    padding-top: 8.8rem;
+    padding-bottom: 4rem;
+}
+
+footer main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 7.2rem;
+}
+
+footer .area-left{
+    max-width: 100%;
+    max-width: 28.1rem;
+}
+
+footer .area-left p{
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: var(--white);
+    margin-top: 3.5rem;
+}
+
+footer main nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 77.7rem;
+}
+
+footer main nav .item h6{
+    color: var(--white);
+    margin-bottom: 2.1rem;
+}
+
+footer main nav .item ul li{
+    margin-bottom: 3.2rem;
+}
+
+footer main nav .item ul li:last-child{
+    margin-bottom: 0;
+}
+
+footer main nav .item ul li a{
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+footer main nav .item ul li a:hover{
+    color: var(--white);
+}
+
+footer main nav .item ul li a span {
+    margin-left: 0.8rem;
+}
+
+footer main nav .item:last-child ul li a{
+    display: flex;
+    align-items: center;
+}
+
+footer main nav .item:last-child ul li a span{
+    margin-left: 8px;
+}
+
+footer .copy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3.1rem;
+}
+
+footer .copy p{
+    color: var(--white);
+}
+
+footer .copy .group{
+    color: var(--white);
+    display: flex;
+    align-items: center;
+}
+
+footer .copy .group span{
+    color: var(--white);
+    margin-right: 2px;
+}
+/* SECTION FOOTER FIM*/
